@@ -14,7 +14,7 @@ Assumes the following command-line utilities are available:
 * luarocks
 
 This command creates a temporary "work" folder where it does a lot of temporary work,
-including installing rocks inside said folder.
+including installing rocks inside the said folder.
 
 Requires internet connection in order to download luarocks and license files.
 ]]
@@ -48,8 +48,8 @@ copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
-FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
-COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ]]
@@ -119,7 +119,7 @@ license (http://python.org/psf/license/).
   },
 }
 
--- Try these to get the license file from a github repo:
+-- Try these to get the license file from a GitHub repo:
 local LICENSE_ATTEMPTS = {
   "LICENSE",
   "LICENSE.txt",
@@ -129,7 +129,7 @@ local LICENSE_ATTEMPTS = {
   "COPYING",
 }
 
--- Try to get the readme from a github repo using:
+-- Try to get the readme from a GitHub repo using:
 local README_ATTEMPTS = {
   "README.md",
   "README.markdown",
